@@ -1,22 +1,18 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "hardhat-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "hardhat": "^2.12.0"
   },
   "dependencies": {
-    "ethers": "^5.7.2",
-    "next": "12.3.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "web3modal": "^1.9.9"
+    "dotenv": "^16.0.3"
   },
-  "devDependencies": {
-    "eslint": "8.26.0",
-    "eslint-config-next": "12.3.1"
-  }
+  "description": ""
 }
